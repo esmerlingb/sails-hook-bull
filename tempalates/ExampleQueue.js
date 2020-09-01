@@ -4,7 +4,7 @@
  * This queue will be available globally as ExampleQueue
  * 
  * For more information check out:
- * Not yet implemented
+ * https://github.com/esmerlingb/sails-hook-bull/blob/master/README.md
  */
 
 module.exports = {
@@ -13,8 +13,6 @@ module.exports = {
 
   // if redis already defined as an object, url will be ignored
   url: 'redis://127.0.0.1:6379',
-
-
 
   /**
    * Override config options for this queue
@@ -28,9 +26,7 @@ module.exports = {
   //   defaultJobOptions?: JobOpts;
   //   settings?: AdvancedSettings;
   // },
-
-
-
+  
   /**
    * Defines a processing function for the jobs of queue.
    * For more information check out:

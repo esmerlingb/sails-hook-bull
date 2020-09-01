@@ -1,0 +1,33 @@
+{
+  "name": "sails-hook-bull",
+  "version": "1.0.0",
+  "description": "A bull wrapper for sails",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/esmerlingb/sails-hook-bull.git"
+  },
+  "scripts": {
+    "test": "mocha --exit"
+  },
+  "keywords": [
+    "sails",
+    "hook",
+    "job",
+    "queue",
+    "bull"
+  ],
+  "author": "Angel Gonzalez",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "sails": {
+    "isHook": true
+  },
+  "dependencies": {
+    "bull": "^3.18.0",
+    "lodash": "^4.17.20"
+  },
+  "devDependencies": {
+    "sails": "^1.2.5"
+  }
+}
